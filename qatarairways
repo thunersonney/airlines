@@ -1,17 +1,4 @@
-/**
- * Welcome to Cloudflare Workers! This is your first worker.
- *
- * - Run "npm run dev" in your terminal to start a development server
- * - Open a browser tab at http://localhost:8787/ to see your worker in action
- * - Run "npm run deploy" to publish your worker
- *
- * Learn more at https://developers.cloudflare.com/workers/
- */
-
-
-export default {
-  async fetch(request) {
-    const html = `<!DOCTYPE html>
+<!DOCTYPE html>
     <body>
     <h1>Ways to Call and Connect with Qatar Airways Customer Service Via Phone Number, Chat, and Email: A Step-by-Step Guide In Depth</h1>
 
@@ -69,12 +56,8 @@ export default {
     <li>Talk To Someone At Qatar Airways®</li>
     <li>Connect To Someone At Qatar Airways®</li>
     </ul>
-    </body>`;
+    </body>
+</html>
 
-    return new Response(html, {
-      headers: {
-        "content-type": "text/html;charset=UTF-8",
-      },
-    });
-  },
-};
+
+
